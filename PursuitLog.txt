@@ -1,0 +1,15 @@
+Cat and Mouse
+
+Cat   Mouse   Distance
+----------------------
+??    2       ??      
+6     11      5       
+12    5       7       
+12    11      1       
+----------------------
+
+
+Cat distance traveled: 6
+Mouse distance traveled: 21
+
+Мышь ускользнула от кота - Mouse evaded Cat

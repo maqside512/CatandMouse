@@ -1,0 +1,14 @@
+/home/ilya/CatandMouse/bin/Debug/net9.0/CatandMouse
+/home/ilya/CatandMouse/bin/Debug/net9.0/CatandMouse.deps.json
+/home/ilya/CatandMouse/bin/Debug/net9.0/CatandMouse.runtimeconfig.json
+/home/ilya/CatandMouse/bin/Debug/net9.0/CatandMouse.dll
+/home/ilya/CatandMouse/bin/Debug/net9.0/CatandMouse.pdb
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.AssemblyInfoInputs.cache
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.AssemblyInfo.cs
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.csproj.CoreCompileInputs.cache
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.dll
+/home/ilya/CatandMouse/obj/Debug/net9.0/refint/CatandMouse.dll
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.pdb
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.genruntimeconfig.cache
+/home/ilya/CatandMouse/obj/Debug/net9.0/ref/CatandMouse.dll
