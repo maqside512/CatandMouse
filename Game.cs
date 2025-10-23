@@ -18,6 +18,8 @@ class Game
     public Player mouse;
     public GameState state = GameState.Start;
 
+    public int cheeseLocation = -1;
+
     private List<string> outputLines = new();
 
     public Game(int size)
@@ -25,6 +27,9 @@ class Game
         this.size = size;
         cat = new Player("Cat");
         mouse = new Player("Mouse");
+
+        Random rnd = new();
+        cheeseLocation = rnd.Next(0, size);
     }
 
     public void Run()
@@ -53,6 +58,11 @@ class Game
         if (who == 'M') mouse.Move(steps, size);
         else if (who == 'C') cat.Move(steps, size);
 
+        if (mouse.IsInGame() && mouse.location == cheeseLocation && mouse.state != State.Transformed)
+        {
+            mouse.state = State.Transformed;
+            outputLines.Add($"Мышь съела сыр и стала котом!");
+        }
         if (cat.IsInGame() && mouse.IsInGame() && cat.location == mouse.location)
         {
             cat.state = State.Winner;
@@ -66,7 +76,8 @@ class Game
         string catLoc = cat.GetLocation();
         string mouseLoc = mouse.GetLocation();
         string dist = (cat.IsInGame() && mouse.IsInGame()) ? Math.Abs(cat.location - mouse.location).ToString() : "??";
-        outputLines.Add($"{catLoc,-5} {mouseLoc,-7} {dist,-8}");
+        string cheeseLoc = cheeseLocation >= 0 ? (cheeseLocation + 1).ToString() : "??";
+        outputLines.Add($"{catLoc,-5} {mouseLoc,-7} {dist,-8} Cheese: {cheeseLoc}");
     }
 
     private void WriteSummary()
