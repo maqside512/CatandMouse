@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatandMouse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6571ae016e774075d5ed18899d8cc3d91ab25606")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e95c0a6dcf3072337d968af0b4b417efdbecdb46")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatandMouse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatandMouse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

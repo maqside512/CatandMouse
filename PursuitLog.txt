@@ -2,15 +2,11 @@ Cat and Mouse
 
 Cat   Mouse   Distance
 ----------------------
-??    2       ??       Cheese: 1
-6     15      9        Cheese: 1
-12    15      3        Cheese: 1
-12    5       7        Cheese: 1
-12    11      1        Cheese: 1
+??    9       ??       Cheese: 2
 ----------------------
 
 
-Cat distance traveled: 7
-Mouse distance traveled: 28
+Cat distance traveled: 0
+Mouse distance traveled: 0
 
-Мышь поймана в клетке: 11 - Mouse caught at: 11
+Мышь ускользнула от кота - Mouse evaded Cat
