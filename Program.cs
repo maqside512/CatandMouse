@@ -14,19 +14,7 @@ class Program
             return;
         }
 
-        string[] lines = File.ReadAllLines(Game.InputFile);
-
-        if (lines.Length == 0)
-        {
-            Console.WriteLine("Ошибка: входной файл пуст.");
-            return;
-        }
-
-        if (!int.TryParse(lines[0], out int size) || size <= 0)
-        {
-            Console.WriteLine("Ошибка: первая строка должна быть положительным числом — размер игрового поля.");
-            return;
-        }
+        int size = 20; // Жестко заданный размер поля
 
         Game game = new Game(size);
         game.Run();

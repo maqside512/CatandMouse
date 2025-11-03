@@ -5,9 +5,8 @@ enum State
     Playing,
     NotInGame,
     Transformed,
-
 }
-// доделать объект где есть появляется сыр и если мышь съедает этот сыр она становится котом. 
+
 class Player
 {
     public string name;

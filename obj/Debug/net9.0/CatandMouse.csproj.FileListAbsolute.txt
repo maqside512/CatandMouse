@@ -12,3 +12,4 @@
 /home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.pdb
 /home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.genruntimeconfig.cache
 /home/ilya/CatandMouse/obj/Debug/net9.0/ref/CatandMouse.dll
+/home/ilya/CatandMouse/obj/Debug/net9.0/CatandMouse.sourcelink.json

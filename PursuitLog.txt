@@ -2,11 +2,11 @@ Cat and Mouse
 
 Cat   Mouse   Distance
 ----------------------
-??    2       ??       Cheese: 8
-6     11      5        Cheese: 8
-12    11      1        Cheese: 8
-12    5       7        Cheese: 8
-12    11      1        Cheese: 8
+??    2       ??       Cheese: 1
+6     15      9        Cheese: 1
+12    15      3        Cheese: 1
+12    5       7        Cheese: 1
+12    11      1        Cheese: 1
 ----------------------
 
 

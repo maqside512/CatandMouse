@@ -62,7 +62,10 @@ class Game
         {
             mouse.state = State.Transformed;
             outputLines.Add($"Мышь съела сыр и стала котом!");
+            outputLines.Add($"Кот не ловит кота, игра заканчивается.");
+            state = GameState.End;
         }
+
         if (cat.IsInGame() && mouse.IsInGame() && cat.location == mouse.location)
         {
             cat.state = State.Winner;
